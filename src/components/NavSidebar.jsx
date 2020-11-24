@@ -24,7 +24,9 @@ export const NavSidebar = () => {
       <div>
         <button
           className="btn-menu"
-          onClick={(): void => setIsSidebarOpen(true)}
+          onClick={() => {
+              return setIsSidebarOpen(true);
+          }}
           type="button"
         >
           <Icon name="burger" className="w-6 h-6" />
