@@ -52,34 +52,27 @@ export const NavSidebar = () => {
           }}
           items={[
             {
-              title: "Home",
-              itemId: "/home",
-              elemBefore: () => <Icon name="coffee" />
+              title: "Explore",
+              itemId: "/explore",
             },
             {
-              title: "About",
-              itemId: "/about",
-              elemBefore: () => <Icon name="user" />,
+              title: "Engage",
+              itemId: "/engage",
               subNav: [
                 {
-                  title: "Projects",
-                  itemId: "/about/projects"
+                  title: "Aktivitäten",
+                  itemId: "/engage/activity"
                 },
                 {
-                  title: "Members",
-                  itemId: "/about/members"
+                  title: "Kalender",
+                  itemId: "/engage/kalender"
                 }
               ]
             },
             {
-              title: "Another Tab",
-              itemId: "/another",
-              subNav: [
-                {
-                  title: "Teams",
-                  itemId: "/another/teams"
-                }
-              ]
+              title: "Manage",
+              itemId: "/manage",
+              
             }
           ]}
         />

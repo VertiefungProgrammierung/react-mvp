@@ -2,12 +2,12 @@ import React from 'react';
 
 import {DashboardLayout} from '../components/Layout';
 
-const AboutPage = () => {
+const ManagePage = () => {
   return (
     <DashboardLayout>
-      <h2>About Page</h2>
+      <h2>Manage Page</h2>
     </DashboardLayout>
   )
 }
 
-export default AboutPage;
+export default ManagePage;

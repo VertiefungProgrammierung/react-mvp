@@ -2,12 +2,12 @@ import React from 'react';
 
 import {DashboardLayout} from '../components/Layout';
 
-const HomePage = () => {
+const ExplorePage = () => {
   return (
     <DashboardLayout>
-      <h2>Home Page</h2>
+      <h2>Explore Page</h2>
     </DashboardLayout>
   )
 }
 
-export default HomePage;
+export default ExplorePage;

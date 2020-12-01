@@ -2,33 +2,33 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import SettingsPage from "./settings";
-import ProjectsPage from "./projects";
-import MembersPage from "./members";
-import AboutPage from "./about";
-import TeamsPage from "./teams";
-import HomePage from "./home";
+import KalenderPage from "./kalender";
+import ActivityPage from "./activity";
+import EngagePage from "./engage";
+import ManagePage from "./manage";
+import ExplorePage from "./explore";
 
 const Routes = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/about/members">
-          <MembersPage />
+        <Route path="/engage/activity">
+          <ActivityPage />
         </Route>
-        <Route path="/about/projects">
-          <ProjectsPage />
+        <Route path="/engage/kalender">
+          <KalenderPage />
         </Route>
-        <Route path="/about">
-          <AboutPage />
+        <Route path="/engage">
+          <EngagePage />
         </Route>
-        <Route path="/another/teams">
-          <TeamsPage />
+        <Route path="/manage">
+          <ManagePage />
         </Route>
         <Route path="/settings">
           <SettingsPage />
         </Route>
         <Route path="/">
-          <HomePage />
+          <ExplorePage/>
         </Route>
       </Switch>
     </BrowserRouter>
